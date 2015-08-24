@@ -12,7 +12,7 @@ Create a small [Slack](https://slack.com) Bot that will respond to commands from
 This app will be considered complete as long as there is some round trip between Slack and your custom bot API. 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
 
 ## Getting Started
-- Fork this repo if you will be using the Loopback skeleton provided. **You can use a different framework if you are more familiar with it.** Flask and Sinatra are recommended alternatives.
+- Fork this repo if you will be using the Loopback skeleton provided. **You can use a different framework if you are more familiar with it (create your own public repo).** Flask and Sinatra are recommended alternatives.
 - Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outoing Webhooks to get information out of Slack and to your API.
 - An Amazon AWS micro instance is recommended for its $0 price tag. Heroku, DigitalOcean, or Rackspace are also options.
 - You do not need to support SSL.
@@ -22,5 +22,4 @@ This app will be considered complete as long as there is some round trip between
 
 ## Bonus
 - When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
-- If using a different framework, create a public Github repository for this project.
 - What would be an interesting way to present the app to the engineering team?
