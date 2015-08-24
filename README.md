@@ -9,7 +9,7 @@ The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.str
 Create a small [Slack](https://slack.com) Bot that will respond to commands from a Slack #channel. The commands can be as simple as a small pre-canned conversation that only knows about a few trigger words, or a service that will launch something based on commands written in a specific Slack channel. One example of a service launcher would be to get the weather for a certain zipcode, or spawn a server via the AWS API using Boto.
 
 ## Definition of Complete
-This app will be considered complete as long as there is some round trip between Slack and your custom bot API.
+This app will be considered complete as long as there is some round trip between Slack and your custom bot API. 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
 
 ## Getting Started
 - Fork this repo if you will be using the Loopback skeleton provided. **You can use a different framework if you are more familiar with it.** Flask and Sinatra are recommended alternatives.
@@ -19,7 +19,6 @@ This app will be considered complete as long as there is some round trip between
 - Support 3 "trigger words" that send different responses back to the same Slack #channel
 - Please include at least 1 unit test of your bot API code
 - Document tradeoffs in the interest of time; this exercise should not take more than 3 hours.
-- 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
 
 ## Bonus
 - When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
