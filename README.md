@@ -22,4 +22,4 @@ This app will be considered complete as long as there is some round trip between
 - What would be the best way to present the app to the engineering team?
 
 ## Bonus
-When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github.
+When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
