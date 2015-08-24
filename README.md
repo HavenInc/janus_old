@@ -12,7 +12,7 @@ Create a small [Slack](https://slack.com) Bot that will respond to commands from
 This app will be considered complete as long as there is some round trip between Slack and your custom bot API.
 
 ## Getting Started
-- Fork this repo if you will be using the Loopback skeleton provided. You can use a different framework if you are more familiar with it. Flask and Sinatra are reccomended alternatives.
+- Fork this repo if you will be using the Loopback skeleton provided. **You can use a different framework if you are more familiar with it.** Flask and Sinatra are recommended alternatives.
 - Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outoing Webhooks to get information out of Slack and to your API.
 - An Amazon AWS micro instance is recommended for its $0 price tag. Heroku, DigitalOcean, or Rackspace are also options.
 - You do not need to support SSL.
