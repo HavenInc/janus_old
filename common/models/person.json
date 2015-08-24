@@ -1,0 +1,23 @@
+{
+  "name": "Person",
+  "plural": "People",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "givenName": {
+      "type": "string",
+      "required": true
+    },
+    "familyName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
