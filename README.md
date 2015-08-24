@@ -23,4 +23,5 @@ This app will be considered complete as long as there is some round trip between
 
 ## Bonus
 - When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
+- If using a different framework, create a public Github repository for this project.
 - What would be an interesting way to present the app to the engineering team?
