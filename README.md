@@ -19,7 +19,7 @@ This app will be considered complete as long as there is some round trip between
 - Please include At least 1 unit test of your bot API code
 - Document tradeoffs in the interest of time; this exercise should not take more than 3 hours.
 - 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
-- What would be the best way to present the app to the engineering team?
 
 ## Bonus
-When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
+- When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
+- What would be an interesting way to present the app to the engineering team?
