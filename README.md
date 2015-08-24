@@ -17,7 +17,7 @@ This app will be considered complete as long as there is some round trip between
 - An Amazon AWS micro instance is recommended for its $0 price tag. Heroku, DigitalOcean, or Rackspace are also options.
 - You do not need to support SSL.
 - Support 3 "trigger words" that send different responses back to the same Slack #channel
-- Please include At least 1 unit test of your bot API code
+- Please include at least 1 unit test of your bot API code
 - Document tradeoffs in the interest of time; this exercise should not take more than 3 hours.
 - 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
 
