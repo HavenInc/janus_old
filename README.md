@@ -1,5 +1,5 @@
 # janus
-## Haven Engineering Applicant Exercise
+## Haven Full-Stack Engineering Applicant Exercise
 > In ancient Roman religion and myth, Janus (/ˈdʒeɪnəs/; Latin: Ianus, pronounced [ˈjaː.nus]) is the god of beginnings and transitions, and thereby of gates, doors, doorways, passages and endings. He is usually depicted as having two faces, since he looks to the future and to the past.
 
 ## Overview
