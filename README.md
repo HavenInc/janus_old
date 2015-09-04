@@ -6,7 +6,7 @@
 The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.strongloop.com/display/public/LB/Getting+started+with+LoopBack) application. The only addition is the `Person` model, which extends the built-in `User` model, and allows the use of all the built-in methods that ship with the Loopback `User` model. You are not required to use the `Person` model, but please think of API security and use Slack payload tokens to secure the receiving end.
 
 ## The Mini Project
-Create a small [Slack](https://slack.com) Bot that will respond to commands from a Slack #channel. The commands can be as simple as a small pre-canned conversation that only knows about a few trigger words, or a service that will launch something based on commands written in a specific Slack channel. One example of a service launcher would be to get the weather for a certain zipcode, or spawn a server via the AWS API using Boto.
+Create a small [Slack](https://slack.com) Bot that will respond to commands from a Slack #channel. Set up at least 3 different commands/trigger words. One example of a service launcher would be to get the weather for a certain zipcode, or spawn a server via the AWS API using Boto.
 
 ## Definition of Complete
 This app will be considered complete as long as there is some round trip between Slack and your custom bot API. 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
