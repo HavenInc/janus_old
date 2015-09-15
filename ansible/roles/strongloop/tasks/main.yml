@@ -1,0 +1,7 @@
+---
+- name: Make sure StrongLoop command line is installed
+  npm: name=strongloop global=yes state=present
+
+- name: Make sure StrongLoop PM is installed
+  command: slc pm-install
+  ignore_errors: True

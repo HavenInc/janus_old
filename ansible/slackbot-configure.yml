@@ -1,0 +1,14 @@
+---
+# file: slackbot-configuration.yml
+- hosts: webservers
+  roles:
+    - common
+    - nodejs
+    - jdauphant.nginx
+    - strongloop
+#    - janus
+  sudo: yes
+
+  tasks:
+    - include: tasks/deploy.yml
+      become_method: sudo

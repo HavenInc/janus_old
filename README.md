@@ -18,7 +18,7 @@ This app will be considered complete as long as there is some round trip between
 - You do not need to support SSL.
 - Support 3 "trigger words" that send different responses back to the same Slack #channel
 - Please include at least 1 unit test of your bot API code
-- Document tradeoffs in the interest of time; this exercise should not take more than 3-5 hours.
+- Document tradeoffs in the interest of time; this exercise should not take more than 3 hours.
 
 ## Bonus
 - When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**

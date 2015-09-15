@@ -1,0 +1,15 @@
+---
+- name: Setup node from source
+  shell: sudo curl -sL https://deb.nodesource.com/setup | sudo bash -
+
+- name: install node
+  apt: pkg=nodejs state=latest
+  sudo: yes
+
+- name: Install common node dependencies
+  npm: name={{item}} global=yes
+  with_items:
+    - bower
+    - forever
+    - grunt-cli
+  sudo: yes

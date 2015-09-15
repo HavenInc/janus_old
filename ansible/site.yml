@@ -1,0 +1,4 @@
+---
+# file : site.yml
+- include: slackbot-configure.yml
+- include: slackbot-deploy.yml

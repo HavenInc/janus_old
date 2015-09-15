@@ -3,22 +3,28 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "test": "mocha"
   },
   "dependencies": {
+    "aws-sdk": "^2.2.0",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "errorhandler": "^1.1.1",
     "loopback": "^2.14.0",
     "loopback-boot": "^2.6.5",
     "loopback-datasource-juggler": "^2.19.0",
-    "serve-favicon": "^2.0.1"
+    "serve-favicon": "^2.0.1",
+    "slack-client": "^1.4.1",
+    "weather": "^0.1.0",
+    "weather-js": "^1.0.2"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
+    "jshint": "^2.5.6",
+    "loopback-testing": "^1.2.0",
+    "chai": "*"
   },
   "repository": {
     "type": "",

@@ -17,3 +17,15 @@
 coverage
 node_modules
 npm-debug.log
+
+# Slack Configuration
+server/config/*
+server/config.local.json
+
+# Ansible Host Files
+ansible/staging
+ansible/production
+
+# Ansbile Configuration Files
+
+ansible/files/*
