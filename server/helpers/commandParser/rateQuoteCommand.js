@@ -10,7 +10,7 @@ function RateQuoteCommand(app, message, slack, parameters) {
 RateQuoteCommand.prototype.handleCommand = function () {
   var channel = this.slack.getChannelGroupOrDMByID(this.message.channel);
   var user = this.slack.getUserByID(this.message.user);
- 
+
   if (this.parameters) {
     var carrierName = this.parameters[0];
     this.app.models.rate.find({
@@ -22,7 +22,9 @@ RateQuoteCommand.prototype.handleCommand = function () {
           return;
         }
 
-        channel.send('The current rate for ' + carrierName + ' is ' + rates[0].rate);
+        if (rates && rates.length > 0) {
+          channel.send('The current rate for ' + carrierName + ' is ' + rates[0].rate);
+        }
     });
   }
 }
