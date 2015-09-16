@@ -1,0 +1,24 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Person": 1,
+    "rate": 4
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Person": {},
+    "rate": {
+      "1": "{\"carrier\":\"evergreen\",\"rate\":200,\"id\":1}",
+      "2": "{\"carrier\":\"cmacgm\",\"rate\":200,\"id\":2}",
+      "3": "{\"carrier\":\"maersk\",\"rate\":120,\"id\":3}"
+    }
+  }
+}

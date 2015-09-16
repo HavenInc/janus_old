@@ -1,19 +1,21 @@
 {
-  "name": "Person",
-  "plural": "People",
-  "base": "User",
+  "name": "rate",
+  "plural": "rates",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "givenName": {
+    "id": {
       "type": "string",
       "required": true
     },
-    "familyName": {
-      "type": "string",
-      "required": true
+    "carrier": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "number"
     }
   },
   "validations": [],

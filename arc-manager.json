@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "fe892da0-3547-47c5-af36-1629d8e17665": "{\"id\":\"fe892da0-3547-47c5-af36-1629d8e17665\",\"host\":\"ec2-52-88-148-138.us-west-2.compute.amazonaws.com\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"start\"],\"protocol\":\"http\",\"created\":1442134257588,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"janus\",\"version\":null},\"processes\":{\"pids\":[]},\"$$hashKey\":\"object:202\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}

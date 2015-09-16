@@ -3,6 +3,13 @@ var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
 
+// Load config settings
+var configSettings = require('./config/staging.json'); // Should take into account node_evn but for time just assume we are deploying to staging
+app.configSettings = configSettings;
+
+// Start listening for slack API commands
+var slackbot = require('./controllers/slack/slackbot')(app);
+
 app.start = function() {
   // start the web server
   return app.listen(function() {

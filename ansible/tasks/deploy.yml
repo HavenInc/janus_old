@@ -1,0 +1,16 @@
+---
+# File: Deploy
+#
+# # Make sure deployment_directory
+- file: path=/var/apps/janus/ state=directory recurse=yes
+
+- name: Set owner for folder
+  command: sudo chown -R ubuntu:ubuntu /var/apps/janus
+  sudo: yes
+
+# Create the /var/apps/janus directory if it doesn't already exist
+- git: repo=git://github.com/bgraner/janus.git dest=/var/apps/janus accept_hostkey=true
+
+- name: Copy the configuration files over
+  copy: src=files/staging.json dest=/var/apps/janus/server/config/ owner=ubuntu group=ubuntu
+  copy: src=files/awsConfig.json dest=/var/apps/janus/server/config/ owner=ubuntu group=ubuntu

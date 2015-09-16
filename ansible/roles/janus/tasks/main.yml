@@ -1,0 +1,6 @@
+---
+- name: Make sure dependencies are installed
+  npm: path=/var/apps/janus
+
+- name: Start slackbot-janus using slc
+  command: slc start chdir=/var/apps/janus
