@@ -1,4 +1,4 @@
-![http://www.internettime.com/wp-content/uploads/2012/10/janus2.jpg]
+![image](https://cloud.githubusercontent.com/assets/67282/15163888/1ac053fe-16c0-11e6-8bfd-e45ed8173cb6.png)
 
 # janus
 ## Haven Full-Stack Engineering Applicant Exercise
