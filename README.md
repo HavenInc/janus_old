@@ -17,7 +17,7 @@ Create a small form with fields for *channel* and *message*. When this form is s
 ## Getting Started
 - Clone this repository.
 - Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outgoing Webhooks and Bots to get information out of Slack and to your API. Hint: look for npm libraries to jump start development.
--
+- Extend the stubbed methods inside [common/models/slack.js](https://github.com/HavenInc/janus/blob/master/common/models/slack.js) to communicate with Slack with your choice of integration.
 - Document tradeoffs/shortcuts in the interest of time; this exercise should not take more than 2-3 hours for basic functionality.
 
 ## Bonus
