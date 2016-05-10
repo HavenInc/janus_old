@@ -1,19 +1,22 @@
 {
-  "name": "Person",
-  "plural": "People",
-  "base": "User",
+  "name": "Slack",
+  "plural": "Slack",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "givenName": {
+    "channel": {
       "type": "string",
       "required": true
     },
-    "familyName": {
+    "message": {
       "type": "string",
       "required": true
+    },
+    "timestamp": {
+      "type": "date"
     }
   },
   "validations": [],

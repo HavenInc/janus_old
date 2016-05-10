@@ -35,5 +35,9 @@
   "Person": {
     "dataSource": "db",
     "public": true
+  },
+  "Slack": {
+    "dataSource": null,
+    "public": true
   }
 }

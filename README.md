@@ -6,20 +6,20 @@
 The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.strongloop.com/display/public/LB/Getting+started+with+LoopBack) application. The only addition is the `Person` model, which extends the built-in `User` model, and allows the use of all the built-in methods that ship with the Loopback `User` model. You are not required to use the `Person` model, but please think of API security and use Slack payload tokens to secure the receiving end.
 
 ## The Mini Project
-Create a small [Slack](https://slack.com) Bot that will respond to commands from a Slack #channel. Set up at least 3 different commands/trigger words. One example of a service launcher would be to get the weather for a certain zipcode, or spawn a server via the AWS API using Boto.
+Create a small app that will communicate with a Slack channel.
 
-## Definition of Complete
-This app will be considered complete as long as there is some round trip between Slack and your custom bot API. 100% completion is not required to be considered for a position, but be prepared to talk through what it would take to complete!
+### Option 1
+Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
+
+### Option 2
+Create a small form with fields for *channel* and *message*. When this form is submitted, it posts a message to the specified channel.
 
 ## Getting Started
-- Fork this repo if you will be using the Loopback skeleton provided. **You can use a different framework if you are more familiar with it (create your own public repo).** Flask and Sinatra are recommended alternatives.
-- Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outgoing Webhooks to get information out of Slack and to your API.
-- An Amazon AWS micro instance is recommended for its $0 price tag. Heroku, DigitalOcean, or Rackspace are also options; so is [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/). Slack cannot communicate with your localhost, so a publically accessible server is required.
-- You do not need to support SSL.
-- Support 3 "trigger words" that send different responses back to the same Slack #channel
-- Please include at least 1 unit test of your bot API code
-- Document tradeoffs in the interest of time; this exercise should not take more than 3-5 hours.
+- Clone this repository.
+- Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outgoing Webhooks and Bots to get information out of Slack and to your API. Hint: look for npm libraries to jump start development.
+-
+- Document tradeoffs/shortcuts in the interest of time; this exercise should not take more than 2-3 hours for basic functionality.
 
 ## Bonus
-- When your app is in MVP v0.0.1 state, create a pull request on this repository. Make sure you do not commit passwords and configuration tokens and the like to github. **This repository is public!**
+- Add a login form so that the for is only accessible from behind authentication.
 - What would be an interesting way to present the app to the engineering team?
