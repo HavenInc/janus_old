@@ -15,7 +15,7 @@ Create an API that responds to a specific Slack channel when a specific trigger 
 Create a small form with fields for **channel** and **message**. When this form is submitted, it posts a message to the specified channel.
 
 ## Getting Started
-- Set up a [Slack](https://slack.com) account and then familiarize yourself with the [Integration Documentation](https://slack.com/integrations), specifically the Outgoing Webhooks and Bots to get information out of Slack and to your API. Hint: look for Slack npm libraries to jump start development.
+- Set up a [Slack](https://slack.com) account and familiarize yourself with the [Integration Documentation](https://slack.com/integrations), most notably the Outgoing Webhooks and Bots to get information out of Slack and to your API. Hint: look for Slack npm libraries to jump start development.
 - Clone this repository.
 - Once cloned, install the application dependencies using `npm install`.
 - Once installed, start the application with `slc run`.
@@ -24,6 +24,7 @@ Create a small form with fields for **channel** and **message**. When this form 
 - Document tradeoffs/shortcuts in the interest of time; this exercise should not take more than 2-3 hours for basic functionality.
 
 ## Bonus Options
-- Convert the Slack model to extend PersistedModel and store all outgoing/incoming messages in a database.
-- Add a login form so that the message form is only accessible from behind authentication. Do not use cookies.
+- Add a login form so that the message form (in option 2) is only accessible from behind authentication. Do not use cookies.
+- Create an npm run script inside package.json that uses supervisor to reload/rerun the code as you edit it.
+- Convert the Slack model to extend PersistedModel and store all outgoing/incoming messages in a database (SQL, NoSQL, ?).
 - What would be an interesting way to present the app to the engineering team?
