@@ -1,3 +1,5 @@
+![http://www.internettime.com/wp-content/uploads/2012/10/janus2.jpg]
+
 # janus
 ## Haven Full-Stack Engineering Applicant Exercise
 > In ancient Roman religion and myth, Janus (/ˈdʒeɪnəs/; Latin: Ianus, pronounced [ˈjaː.nus]) is the god of beginnings and transitions, and thereby of gates, doors, doorways, passages and endings. He is usually depicted as having two faces, since he looks to the future and to the past.
@@ -12,14 +14,14 @@ Create a small app that will communicate with a Slack channel.
 Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
 
 ### Option 2
-Create a small form with fields for **channel** and **message**. When this form is submitted, it posts a message to the specified channel.
+Create a small form with fields for **channel** and **message**. When this form is submitted, it posts a message to the specified channel using a custom API endpoint on the Slack model (see below).
 
 ## Getting Started
 - Set up a [Slack](https://slack.com) account and familiarize yourself with the [Integration Documentation](https://slack.com/integrations), most notably the Outgoing Webhooks and Bots to get information out of Slack and to your API. Hint: look for Slack npm libraries to jump start development.
 - Clone this repository.
 - Once cloned, install the application dependencies using `npm install`.
 - Once installed, start the application with `slc run` or `npm start`.
-- Extend the stubbed methods inside [common/models/slack.js](https://github.com/HavenInc/janus/blob/master/common/models/slack.js) to communicate with Slack using your choice of integration.
+- Extend the stubbed remote methods inside [common/models/slack.js](https://github.com/HavenInc/janus/blob/master/common/models/slack.js) to communicate with Slack using your choice of integration.
 - Use the [API Explorer](http://0.0.0.0:3000/explorer) to test your new methods while in development.
 - Document tradeoffs/shortcuts in the interest of time; this exercise should not take more than 2-3 hours for basic functionality.
 
