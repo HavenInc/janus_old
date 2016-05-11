@@ -11,7 +11,7 @@ The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.str
 - The `Slack` model. This is where your custom code will live, and where you'll add the libraries of your choosing to communicate with Slack.
 
 ## The Mini Project
-Create a small app that will communicate with a Slack channel.
+Create a small application or API that will communicate with a Slack channel.
 
 ### Option 1
 Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
