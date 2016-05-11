@@ -19,7 +19,7 @@ The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.str
 Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
 
 ### Option 2
-Create a small form with fields for **channel** and **message**. When this form is submitted, it posts a message to the specified channel using a custom API endpoint on the Slack model (see below).
+Create a small form with fields for **channel** and **message** (or use the API Explorer with these as a payload). When this form is submitted, it posts a message to the specified channel using a custom API endpoint on the Slack model (see below).
 
 ## Getting Started
 - The [Create a Simple API](https://docs.strongloop.com/display/public/LB/Create+a+simple+API) tutorial for Strongloop is a great starting point, along with [Installing Strongloop](https://docs.strongloop.com/display/public/LB/Installing+StrongLoop) and [Loopback Core Concepts](https://docs.strongloop.com/display/public/LB/LoopBack+core+concepts).
