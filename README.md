@@ -21,8 +21,9 @@ Create a small form with fields for **channel** and **message**. When this form 
 
 ## Getting Started
 - Set up a [Slack](https://slack.com) account and familiarize yourself with the [Integration Documentation](https://slack.com/integrations), most notably the Outgoing/Incoming Webhooks and Bots to get information out of Slack and to your API. Hint: look for Slack npm libraries to jump start development.
+- Install [NodeJS](https://nodejs.org) on your dev machine, and make sure [npm](https://www.npmjs.com/) is also installed.
 - Clone this repository.
-- Once cloned, install the application dependencies using `npm install`.
+- Once cloned, install the application dependencies using `npm install` in the root of the project.
 - Once installed, start the application with `slc run` or `npm start`.
 - Extend the stubbed remote methods inside [common/models/slack.js](https://github.com/HavenInc/janus/blob/master/common/models/slack.js) to communicate with Slack using your choice of integration.
 - Use the [API Explorer](http://0.0.0.0:3000/explorer) to test your new methods while in development.
