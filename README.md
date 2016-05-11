@@ -26,7 +26,7 @@ Create a small form with fields for **channel** and **message**. When this form 
 - Once cloned, install the application dependencies using `npm install` in the root of the project.
 - Once installed, start the application with `slc run` or `npm start`.
 - Extend the stubbed remote methods inside [common/models/slack.js](https://github.com/HavenInc/janus/blob/master/common/models/slack.js) to communicate with Slack using your choice of integration.
-- Use the [API Explorer](http://0.0.0.0:3000/explorer) to test your new methods while in development.
+- Use the [API Explorer http://0.0.0.0:3000/explorer](http://0.0.0.0:3000/explorer) to test your new methods while in development. This can also be used to show complete operation of your code.
 - Document tradeoffs/shortcuts in the interest of time; this exercise should not take more than 2-3 hours for basic functionality.
 
 ## Bonus Options
