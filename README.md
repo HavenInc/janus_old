@@ -4,14 +4,14 @@
 ## Haven Full-Stack Engineering Applicant Exercise
 > In ancient Roman religion and myth, Janus (/ˈdʒeɪnəs/; Latin: Ianus, pronounced [ˈjaː.nus]) is the god of beginnings and transitions, and thereby of gates, doors, doorways, passages and endings. He is usually depicted as having two faces, since he looks to the future and to the past.
 
-## Overview
+## The Mini Project
+Create a small application or API that will communicate with a Slack channel. **You can use this skeleton project as a starting point, or use another framework of your choice. The only requirement is it must be Javascript based.**
+
+#### Skeleton Overview
 The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.strongloop.com/display/public/LB/Getting+started+with+LoopBack) application. The additions include
 
 - The `Person/People` model, which extends the built-in `User` model, and allows the use of all the built-in methods that ship with the Loopback `User` model. You are not required to use the `Person` model, but please think of API security and use Slack payload tokens to secure the receiving end.
 - The `Slack` model. This is where your custom code will live, and where you'll add the libraries of your choosing to communicate with Slack.
-
-## The Mini Project
-Create a small application or API that will communicate with a Slack channel. **You can use this skeleton project as a starting point, or use another framework of your choice. The only requirement is it must be Javascript based.**
 
 ### Option 1
 Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
