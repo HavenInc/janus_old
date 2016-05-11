@@ -7,6 +7,8 @@
 ## The Mini Project
 Create a small application or API that will communicate with a Slack channel. **You can use this skeleton project as a starting point, or use another framework of your choice. The only requirement is it must be Javascript based.**
 
+> Do not hesitate to ask questions about how this could/should be set up! This is not a strict quiz, it is a starting point for collaboration.
+
 #### Skeleton Overview
 The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.strongloop.com/display/public/LB/Getting+started+with+LoopBack) application. The additions include
 
