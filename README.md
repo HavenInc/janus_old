@@ -16,7 +16,7 @@ The skeleton provided here is a barebones [Strongloop/Loopback](https://docs.str
 - The `Slack` model. This is where your custom code will live, and where you'll add the libraries of your choosing to communicate with Slack.
 
 ### Option 1
-Create an API that responds to a specific Slack channel when a specific trigger word is used in a message.
+Create an API that responds to a specific Slack channel when a specific trigger word is used in a message. Heads up: this option requires SSL communication from Slack to an internet-accessible endpoint.
 
 ### Option 2
 Create a small form with fields for **channel** and **message** (or use the API Explorer with these as a payload). When this form is submitted, it posts a message to the specified channel using a custom API endpoint on the Slack model (see below).
