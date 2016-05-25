@@ -28,7 +28,7 @@ module.exports = function(Slack) {
   // Respond using Slack.sendMessage to the same channel
   //
   // HINT: In order for Slack to hit this endpoint, it needs to be available
-  //       on the internet using a hosting provider.
+  //       on the internet *over HTTPS* using a hosting provider.
   //       If that's not feasible, look into Bot libraries that use Socket
   //       connections and add listener code to server.js or in a boot script
   //       that will trigger this method.
