@@ -5,15 +5,20 @@ module.exports = function(Slack) {
   // Send a message to a slack channel from here
   //
   Slack.sendMessage = function(messagePayload, cb) {
+    console.log(messagePayload.msg);
 
-    let result = {};
-
+    let result = {
+      alertMsg: "Hello, World!"
+    };
     return cb(null, result);
   };
 
   Slack.remoteMethod('sendMessage', {
     accepts: [
-      { arg: 'messagePayload', type: 'object' }
+      {
+        arg: 'message', 'type': 'string',
+        arg: 'messagePayload', type: 'object'
+      }
     ],
     returns: [
       { arg: 'result',

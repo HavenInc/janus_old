@@ -4,6 +4,7 @@
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
+    "reload": "lb-ng server/server.js client/js/services/lb-services.js",
     "start": "slc run"
   },
   "dependencies": {
