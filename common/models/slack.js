@@ -3,7 +3,6 @@ module.exports = function(Slack) {
   'use strict';
 
   // Send a message to a slack channel from here
-  //
   Slack.sendMessage = function(messagePayload, cb) {
     console.log(messagePayload.msg);
 
