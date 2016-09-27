@@ -35,6 +35,7 @@ Create a small form with fields for **channel** and **message** (or use the API 
 
 ## Bonus Options
 - Add a login form so that the message form (in option 2) is only accessible from behind authentication. Do not use cookies.
+- Use Slack's message buttons to provide easy ways for recipients to respond to messages (required an OAuth app registration)
 - Create an npm run script inside package.json that uses supervisor to reload/rerun the code as you edit it.
 - Convert the Slack model to extend PersistedModel and store all outgoing/incoming messages in a database (SQL, NoSQL, ?).
 - What would be an interesting way to present the app to the engineering team?
