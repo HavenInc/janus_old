@@ -5,7 +5,7 @@
   "scripts": {
     "pretest": "jshint .",
     "reload": "lb-ng server/server.js client/js/services/lb-services.js",
-    "start": "slc run"
+    "start": "npm run reload && slc run"
   },
   "dependencies": {
     "compression": "^1.0.3",
