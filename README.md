@@ -22,7 +22,8 @@ Create an API that responds to a specific Slack channel when a specific trigger 
 ### Option 2
 Create a small form with fields for **channel** and **message** (or use the API Explorer with these as a payload). When this form is submitted, it posts a message to the specified channel using a custom API endpoint on the Slack model (see below).  Please style the form to look like the following mockup:
 
-![image](take_home_mockup.png)
+![image](Permutations.png)
+![image](PortCalls.png)
 
 The images for this mockup are stored in the client/images/ folder.
 
